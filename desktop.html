@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Interno</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desktop.css">
+</head>
+
+<body>
+
+    <div class="desktop">
+        <div class="icone" onclick="abrir('arquivos')">📁 Arquivos</div>
+        <div class="icone" onclick="abrir('emails')">📧 E-mails</div>
+        <div class="icone" onclick="abrir('relatorio')">📄 Relatório</div>
+    </div>
+
+    <div id="janela" class="janela">
+        <div class="topo">
+            <span>SISTEMA INTERNO</span>
+            <button onclick="fechar()">X</button>
+        </div>
+        <div id="conteudo" class="conteudo"></div>
+    </div>
+
+    <script src="desktop.js"></script>
+</body>
+
+</html>
