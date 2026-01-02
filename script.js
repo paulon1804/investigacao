@@ -2,7 +2,7 @@ function verificarCodigo() {
     var codigo = document.getElementById("codigo").value.toUpperCase();
 
     if (codigo === "CASO-1") {
-        window.location.href = "desktop.html";
+        window.location.href = "tela2.html";
     }
     else if (codigo === "CASO-2") {
         window.location.href = "desktop.html";

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tela 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tela2.css">
+</head>
+
+<body>
+
+    <div class="tela2">
+        <div class="icone" onclick="IrparaDesktop()">teste1</div>
+        <div class="icone" onclick="abrir('teste2')">teste2</div>
+    </div>
+
+    <div id="janela" class="janela">
+        <div class="topo">
+            <span>TELA 2</span>
+            <button onclick="fechar()">X</button>
+        </div>
+        <div id="conteudo" class="conteudo"></div>
+    </div>
+
+    <script src="desktop.js"></script>
+</body>
+
+</html>

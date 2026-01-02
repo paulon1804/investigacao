@@ -8,9 +8,9 @@ body {
 /* Área do desktop */
 .desktop {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+    flex-direction: row;
+    gap: 100px;
+    padding: 200px;
     width: max-content;
 }
 
